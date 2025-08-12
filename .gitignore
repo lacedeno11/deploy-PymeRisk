@@ -1,0 +1,160 @@
+# === ARCHIVOS DE CONFIGURACIÓN SENSIBLES ===
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+*.env
+
+# === CREDENCIALES Y SECRETOS ===
+secrets/
+credentials/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# === ENTORNOS VIRTUALES ===
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# === JUPYTER NOTEBOOKS ===
+.ipynb_checkpoints
+*.ipynb
+
+# === PYTEST ===
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# === MYPY ===
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# === IDEs Y EDITORES ===
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# === LOGS ===
+*.log
+logs/
+log/
+
+# === BASES DE DATOS LOCALES ===
+*.db
+*.sqlite
+*.sqlite3
+db.sqlite3
+database.db
+
+# === ARCHIVOS TEMPORALES ===
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# === AZURE Y CLOUD ===
+.azure/
+azure.json
+deployment.json
+
+# === DOCKER ===
+Dockerfile.local
+docker-compose.override.yml
+.dockerignore
+
+# === ARCHIVOS DE SISTEMA ===
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# === ARCHIVOS DE PRUEBA ===
+test_results/
+test_output/
+*.test
+test_*.py.bak
+
+# === ARCHIVOS DE DOCUMENTACIÓN GENERADOS ===
+docs/_build/
+site/
+
+# === ARCHIVOS DE CONFIGURACIÓN LOCAL ===
+config.local.json
+settings.local.json
+local_settings.py
+
+# === ARCHIVOS DE BACKUP ===
+*.orig
+*.rej
+
+# === ARCHIVOS DE KIRO IDE ===
+.kiro/cache/
+.kiro/temp/
+.kiro/logs/
+
+# === ARCHIVOS ESPECÍFICOS DEL PROYECTO ===
+# Reportes generados
+reports/
+output/
+results/
+
+# Datos de prueba sensibles
+test_data/sensitive/
+sample_data/real/
+
+# Archivos de configuración de infraestructura local
+infrastructure/local/
+deployment/local/.env
+
+# === STREAMLIT ===
+.streamlit/secrets.toml
+.streamlit/credentials.toml
